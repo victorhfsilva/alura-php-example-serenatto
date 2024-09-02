@@ -1,0 +1,21 @@
+{
+    "name": "victor/alura-php-example-serenatto",
+    "description": "Projeto de exemplo utilizando PHP para desenvolvimento Web da Alura.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Victor\\AluraPhpExampleSerenatto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor Hugo Ferreira Silva",
+            "email": "victorhfsilva@protonmail.com"
+        }
+    ],
+    "scripts": {
+        "start": [
+            "php -S localhost:8080 -t public"
+        ]
+    }
+}
